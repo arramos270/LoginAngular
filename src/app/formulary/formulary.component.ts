@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./formulary.component.css']
 })
 export class FormularyComponent implements OnInit {
-  email='';
-  password='';
 
   constructor() { }
 
