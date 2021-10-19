@@ -1,0 +1,10 @@
+<h1>REGISTRO</h1>
+<br>
+<form #registerform = "ngForm">
+    <br>
+    Username: <input type="text" name = 'username' ngModel>
+    Email: <input type="text" name = 'email' ngModel>
+    Contraseña: <input type="password" name = 'password' ngModel>
+  </form>
+<br>
+<button mat-raised-button color="primary" (click)="login(registerform.value.username, registerform.value.email, registerform.value.password)">Registrarse</button>
